@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.pathway-title{
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.525);
+}
+
+.pathway-cards{
+    padding-top: 50px;
+}
+
+.pathway-card{
+    display: flex;
+    justify-content: space-between;
+    width: 1030px;
+    height: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 40px;
+}
+
+.pathway-card h1{
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 37px;
+    color: #212121;
+    padding: 20px 10px;
+}
+
+.pathway-card .pathway-description{
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 14px;
+    color: #52647C;
+}
+
+.pathway-card .pathway-image{
+    width: 445px;
+    height: 250px;
+}
+
+.pathway-cards .pathway-btn{
+    width: 272px;
+    height: 64px;
+    border: none;
+    padding: 4px 24px;
+    background-color: #0D6EFD;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+    font-family: Montserrat;
+    cursor: pointer;
+    margin-left: 490px;
+    margin-top: 50px;
+}
+
+.pathway-cards .pathway-btn:hover{
+    background-color: #0d6dfd60;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
